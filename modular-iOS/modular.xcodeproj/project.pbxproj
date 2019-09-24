@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AF5A6582233A4E6E00D3436A /* modular-core.js in Resources */ = {isa = PBXBuildFile; fileRef = AF5A6580233A4E6D00D3436A /* modular-core.js */; };
+		AF5A6583233A4E6E00D3436A /* modular-extend.js in Resources */ = {isa = PBXBuildFile; fileRef = AF5A6581233A4E6E00D3436A /* modular-extend.js */; };
 		AF84E1F220B72830005387B8 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AF84E1EE20B7282F005387B8 /* Default@2x.png */; };
 		AF84E1F320B72830005387B8 /* Default-667@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AF84E1EF20B72830005387B8 /* Default-667@2x.png */; };
 		AF84E1F420B72830005387B8 /* Default-568@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AF84E1F020B72830005387B8 /* Default-568@2x.png */; };
@@ -45,6 +47,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		AF5A6580233A4E6D00D3436A /* modular-core.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = "modular-core.js"; sourceTree = "<group>"; };
+		AF5A6581233A4E6E00D3436A /* modular-extend.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = "modular-extend.js"; sourceTree = "<group>"; };
 		AF84E1EE20B7282F005387B8 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		AF84E1EF20B72830005387B8 /* Default-667@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-667@2x.png"; sourceTree = "<group>"; };
 		AF84E1F020B72830005387B8 /* Default-568@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568@2x.png"; sourceTree = "<group>"; };
@@ -85,6 +89,8 @@
 				AF84E1EE20B7282F005387B8 /* Default@2x.png */,
 				AFB70F5E21C9DB67006753C3 /* modular-plugin-iOS.xml */,
 				AFA056BD209ADE7400297470 /* global.properties */,
+				AF5A6580233A4E6D00D3436A /* modular-core.js */,
+				AF5A6581233A4E6E00D3436A /* modular-extend.js */,
 			);
 			path = config;
 			sourceTree = "<group>";
@@ -202,6 +208,8 @@
 				AFB70F6121C9DB67006753C3 /* Default-812@3x.png in Resources */,
 				AF84E1F320B72830005387B8 /* Default-667@2x.png in Resources */,
 				AFB70F6021C9DB67006753C3 /* modular-plugin-iOS.xml in Resources */,
+				AF5A6583233A4E6E00D3436A /* modular-extend.js in Resources */,
+				AF5A6582233A4E6E00D3436A /* modular-core.js in Resources */,
 				AF84E1F220B72830005387B8 /* Default@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
