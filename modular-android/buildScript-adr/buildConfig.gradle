@@ -1,0 +1,12 @@
+
+//Copy类型
+task makeCopy(type: Copy) {
+    //设置拷贝的文件
+    from('build/outputs/apk/')
+    //打进jar包后的文件目录
+    into('../buildScript-adr/apk/')
+    //（我们只关心apk文件）
+    include('*.apk')
+}
+
+// 打包请在控制台中执行：./buildScript-adr/build.sh

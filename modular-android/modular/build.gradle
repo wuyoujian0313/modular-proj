@@ -1,0 +1,74 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 26
+    buildToolsVersion "25.0.2"
+    defaultConfig {
+        applicationId "com.ai.modular"
+        minSdkVersion 21
+        targetSdkVersion 26
+        versionCode 1
+        versionName "1.0"
+        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+
+    }
+
+    productFlavors {
+        modular {
+        }
+
+        modularTest {
+        }
+    }
+
+    // 请根据xxx.jks证书情况配置
+    signingConfigs {
+        config {
+            keyAlias 'modular-cer'
+            keyPassword '123456'
+            storeFile file('../modular-cer.jks')
+            storePassword '123456'
+
+            v1SigningEnabled true
+            v2SigningEnabled true
+        }
+    }
+
+    buildTypes {
+        release {
+//            signingConfig signingConfigs.config
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+            debuggable false
+        }
+
+        debug {
+//            signingConfig signingConfigs.config
+            debuggable true
+        }
+    }
+
+    lintOptions {
+        checkReleaseBuilds false
+        // Or, if you prefer, you can continue to check for errors in release builds,
+        // but continue the build even when errors are found:
+        abortOnError false
+    }
+
+    aaptOptions{
+        cruncherEnabled = false
+    }
+}
+
+dependencies {
+    compile fileTree(dir: 'libs', include: ['*.jar'])
+    compile 'com.android.support:appcompat-v7:26.0.0'
+    compile 'com.squareup.okhttp3:okhttp:3.1.2'
+    compile 'com.squareup.okio:okio:1.6.0'
+    compile 'cn.bingoogolapple:bga-qrcode-zbar:1.2.1'
+}
+
+// 引入打包脚本
+apply from: '../buildScript-adr/buildConfig.gradle'
+
+// 打包请在控制台中执行：./buildScript-adr/build.sh
