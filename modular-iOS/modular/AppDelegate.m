@@ -1,17 +1,17 @@
 //
 //  AppDelegate.m
-//  mesop
+//  modular
 //
 //  Created by Wu YouJian on 2019/7/5.
 //  Copyright © 2019 AI. All rights reserved.
 //
 
 #import "AppDelegate.h"
-#import <AIBase/AIBase.h>
+#import <modular/modular.h>
 
 @interface AppDelegate ()
-@property (nonatomic, strong) AINavigationController        *mainNav;
-@property (nonatomic, strong) AIWKWebViewController         *mainVC;
+@property (nonatomic, strong) WMNavigationController        *mainNav;
+@property (nonatomic, strong) WMWKWebViewController         *mainVC;
 
 @end
 
@@ -23,10 +23,10 @@
 
 - (void)useWKWebViewController {
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
-    AIWKWebViewController *tempVC = [[AIWKWebViewController alloc] init];
+    WMWKWebViewController *tempVC = [[WMWKWebViewController alloc] init];
     self.mainVC = tempVC;
     
-    AINavigationController *tempNav = [[AINavigationController alloc] initWithRootViewController:_mainVC];
+    WMNavigationController *tempNav = [[WMNavigationController alloc] initWithRootViewController:_mainVC];
     self.mainNav = tempNav;
     _mainNav.navigationBarHidden = YES;
     
@@ -68,29 +68,6 @@
 
 - (void)applicationWillTerminate:(UIApplication *)application {
     // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
-}
-
-- (void)handleURL:(NSURL *)url {
-    NSData *jsonData = [url.host dataUsingEncoding:NSUTF8StringEncoding];
-    NSError *error = nil;
-    NSDictionary *dic = [NSJSONSerialization JSONObjectWithData:jsonData
-                                                        options:NSJSONReadingMutableContainers error:&error];
-    
-    [[NSNotificationCenter defaultCenter] postNotificationName:@"toPlugin10085Notification" object:dic userInfo:nil];
-}
-- (BOOL)application:(UIApplication *)app openURL:(NSURL *)url options:(NSDictionary<UIApplicationOpenURLOptionsKey, id> *)options {
-    [self handleURL:url];
-    return YES;
-}
-
-- (BOOL)application:(UIApplication *)application handleOpenURL:(NSURL *)url  {
-    [self handleURL:url];
-    return YES;
-}
-
-- (BOOL)application:(UIApplication *)application openURL:(NSURL *)url sourceApplication:(NSString *)sourceApplication annotation:(id)annotation {
-    [self handleURL:url];
-    return YES;
 }
 
 @end

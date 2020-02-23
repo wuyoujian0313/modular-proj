@@ -1,43 +1,46 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <plugins>    
     <!--原生自动消失的提示框-->
-    <action name="JN_ShowMessage" class="AIWKWebViewBasePlugin"></action>
+    <action name="JN_ShowMessage" class="WMWKWebViewBasePlugin"></action>
     <!--退出应用-->
-    <action name="JN_Quit" class="AIWKWebViewBasePlugin"></action>
+    <action name="JN_Quit" class="WMWKWebViewBasePlugin"></action>
     <!--分享文字到剪切板-->
-    <action name="JN_Sharing" class="AIWKWebViewBasePlugin"></action>
+    <action name="JN_Sharing" class="WMWKWebViewBasePlugin"></action>
     <!--调用wps等应用打开对应的文档-->
-    <action name="JN_OpenDocument" class="AIWKWebViewBasePlugin"></action>
+    <action name="JN_OpenDocument" class="WMWKWebViewBasePlugin"></action>
     <!--检查app版本-->
-    <action name="JN_CheckVersion" class="AIWKWebViewBasePlugin"></action>
+    <action name="JN_CheckVersion" class="WMWKWebViewBasePlugin"></action>
     <!--获取app版本号-->
-    <action name="JN_VersionNumber" class="AIWKWebViewBasePlugin"></action>
+    <action name="JN_VersionNumber" class="WMWKWebViewBasePlugin"></action>
     <!--启动原生loading -->
-    <action name="JN_ShowLoading" class="AIWKWebViewBasePlugin"></action>
+    <action name="JN_ShowLoading" class="WMWKWebViewBasePlugin"></action>
     <!--关闭原生loading -->
-    <action name="JN_DismissLoading" class="AIWKWebViewBasePlugin"></action>
+    <action name="JN_DismissLoading" class="WMWKWebViewBasePlugin"></action>
     <!--保存数据到原生-->
-    <action name="JN_SetValueWithKey" class="AIWKWebViewBasePlugin"></action>
+    <action name="JN_SetValueWithKey" class="WMWKWebViewBasePlugin"></action>
     <!--获取数据-->
-    <action name="JN_GetValueWithKey" class="AIWKWebViewBasePlugin"></action>
+    <action name="JN_GetValueWithKey" class="WMWKWebViewBasePlugin"></action>
     <!--删除数据-->
-    <action name="JN_RemoveValueWithKey" class="AIWKWebViewBasePlugin"></action>
+    <action name="JN_RemoveValueWithKey" class="WMWKWebViewBasePlugin"></action>
     <!--指纹校验-->
-    <action name="JN_Fingerprint" class="AIWKWebViewBasePlugin"></action>
+    <action name="JN_Fingerprint" class="WMWKWebViewBasePlugin"></action>
     <!--调用系统短信应用-->
-    <action name="JN_SMS" class="AIWKWebViewBasePlugin"></action>
+    <action name="JN_SMS" class="WMWKWebViewBasePlugin"></action>
     <!--调用系统拨打电话应用-->
-    <action name="JN_Telephone" class="AIWKWebViewBasePlugin"></action>
+    <action name="JN_Telephone" class="WMWKWebViewBasePlugin"></action>
     <!--调用发邮件应用-->
-    <action name="JN_Email" class="AIWKWebViewBasePlugin"></action>
+    <action name="JN_Email" class="WMWKWebViewBasePlugin"></action>
     <!--调用浏览器应用-->
-    <action name="JN_Brower" class="AIWKWebViewBasePlugin"></action>
+    <action name="JN_Brower" class="WMWKWebViewBasePlugin"></action>
     <!--从相册或者文件选择照片-->
-    <action name="JN_SelectPhoto" class="AIWKWebViewBasePlugin"></action>
+    <action name="JN_SelectPhoto" class="WMWKWebViewBasePlugin"></action>
     <!--调用系统拍照应用-->
-    <action name="JN_Photograph" class="AIWKWebViewBasePlugin"></action>
+    <action name="JN_Photograph" class="WMWKWebViewBasePlugin"></action>
     <!--身份证拍照-->
-    <action name="JN_TakeCertificate" class="AIWKWebViewBasePlugin"></action>
+    <action name="JN_TakeCertificate" class="WMWKWebViewBasePlugin"></action>
     <!--扫码二维码-->
-    <action name="JN_QRcode" class="AIWKWebViewBasePlugin"></action>
+    <action name="JN_QRcode" class="WMWKWebViewBasePlugin"></action>
+    
+    <!--扩展接口-->
+    <action name="JN_TestMesage" class="WMWKWebViewExtendPlugin"></action>
 </plugins>

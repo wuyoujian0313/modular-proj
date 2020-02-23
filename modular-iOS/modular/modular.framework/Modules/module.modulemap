@@ -1,0 +1,6 @@
+framework module modular {
+  umbrella header "modular.h"
+
+  export *
+  module * { export * }
+}

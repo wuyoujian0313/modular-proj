@@ -1,63 +1,63 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <plugins>
     <!--原生自动消失的提示框-->
-    <action name="JN_ShowMessage" class="com.ai.webplugin.AIWebViewBasePlugin"></action>
+    <action name="JN_ShowMessage" class="com.wm.webviewkit.WMWebViewBasePlugin"></action>
     <!--退出应用-->
-    <action name="JN_Quit" class="com.ai.webplugin.AIWebViewBasePlugin"></action>
+    <action name="JN_Quit" class="com.wm.webviewkit.WMWebViewBasePlugin"></action>
     <!--分享文字到剪切板-->
-    <action name="JN_Sharing" class="com.ai.webplugin.AIWebViewBasePlugin"></action>
+    <action name="JN_Sharing" class="com.wm.webviewkit.WMWebViewBasePlugin"></action>
     <!--调用wps等应用打开对应的文档
     主要针对类似：http://xxxxx/xx.doc,类型的，项目中不实用
     -->
-    <action name="JN_OpenDocument" class="com.ai.webplugin.AIWebViewBasePlugin"></action>
+    <action name="JN_OpenDocument" class="com.wm.webviewkit.WMWebViewBasePlugin"></action>
     <!--检查app版本-->
-    <action name="JN_CheckVersion" class="com.ai.webplugin.AIWebViewBasePlugin"></action>
+    <action name="JN_CheckVersion" class="com.wm.webviewkit.WMWebViewBasePlugin"></action>
     <!--获取app版本号-->
-    <action name="JN_VersionNumber" class="com.ai.webplugin.AIWebViewBasePlugin"></action>
+    <action name="JN_VersionNumber" class="com.wm.webviewkit.WMWebViewBasePlugin"></action>
     <!--启动原生loading -->
-    <action name="JN_ShowLoading" class="com.ai.webplugin.AIWebViewBasePlugin"></action>
+    <action name="JN_ShowLoading" class="com.wm.webviewkit.WMWebViewBasePlugin"></action>
     <!--关闭原生loading -->
-    <action name="JN_DismissLoading" class="com.ai.webplugin.AIWebViewBasePlugin"></action>
+    <action name="JN_DismissLoading" class="com.wm.webviewkit.WMWebViewBasePlugin"></action>
     <!--保存数据到原生-->
-    <action name="JN_SetValueWithKey" class="com.ai.webplugin.AIWebViewBasePlugin"></action>
+    <action name="JN_SetValueWithKey" class="com.wm.webviewkit.WMWebViewBasePlugin"></action>
     <!--获取数据-->
-    <action name="JN_GetValueWithKey" class="com.ai.webplugin.AIWebViewBasePlugin"></action>
+    <action name="JN_GetValueWithKey" class="com.wm.webviewkit.WMWebViewBasePlugin"></action>
     <!--删除数据-->
-    <action name="JN_RemoveValueWithKey" class="com.ai.webplugin.AIWebViewBasePlugin"></action>
+    <action name="JN_RemoveValueWithKey" class="com.wm.webviewkit.WMWebViewBasePlugin"></action>
     <!--指纹校验-->
-    <action name="JN_Fingerprint" class="com.ai.webplugin.AIWebViewBasePlugin"></action>
+    <action name="JN_Fingerprint" class="com.wm.webviewkit.WMWebViewBasePlugin"></action>
     <!--调用系统短信应用-->
-    <action name="JN_SMS" class="com.ai.webplugin.AIWebViewBasePlugin"></action>
+    <action name="JN_SMS" class="com.wm.webviewkit.WMWebViewBasePlugin"></action>
     <!--调用系统拨打电话应用-->
-    <action name="JN_Telephone" class="com.ai.webplugin.AIWebViewBasePlugin"></action>
+    <action name="JN_Telephone" class="com.wm.webviewkit.WMWebViewBasePlugin"></action>
     <!--调用发邮件应用-->
-    <action name="JN_Email" class="com.ai.webplugin.AIWebViewBasePlugin"></action>
+    <action name="JN_Email" class="com.wm.webviewkit.WMWebViewBasePlugin"></action>
     <!--调用浏览器应用-->
-    <action name="JN_Brower" class="com.ai.webplugin.AIWebViewBasePlugin"></action>
+    <action name="JN_Brower" class="com.wm.webviewkit.WMWebViewBasePlugin"></action>
     <!--从相册或者文件选择照片-->
-    <action name="JN_SelectPhoto" class="com.ai.webplugin.AIWebViewBasePlugin"></action>
+    <action name="JN_SelectPhoto" class="com.wm.webviewkit.WMWebViewBasePlugin"></action>
     <!--调用系统拍照应用-->
-    <action name="JN_Photograph" class="com.ai.webplugin.AIWebViewBasePlugin"></action>
+    <action name="JN_Photograph" class="com.wm.webviewkit.WMWebViewBasePlugin"></action>
     <!--身份证拍照-->
-    <action name="JN_TakeCertificate" class="com.ai.webplugin.AIWebViewBasePlugin"></action>
+    <action name="JN_TakeCertificate" class="com.wm.webviewkit.WMWebViewBasePlugin"></action>
     <!--加密-->
-    <action name="JN_ASEEncrypt" class="com.ai.webplugin.AIWebViewBasePlugin"></action>
+    <action name="JN_ASEEncrypt" class="com.wm.webviewkit.WMWebViewBasePlugin"></action>
     <!--解密-->
-    <action name="JN_ASEDecrypt" class="com.ai.webplugin.AIWebViewBasePlugin"></action>
+    <action name="JN_ASEDecrypt" class="com.wm.webviewkit.WMWebViewBasePlugin"></action>
     <!--设置手势密码-->
-    <action name="JN_SettingGesturePassword" class="com.ai.webplugin.AIWebViewBasePlugin"></action>
+    <action name="JN_SettingGesturePassword" class="com.wm.webviewkit.WMWebViewBasePlugin"></action>
     <!--设置手势密码回调-->
-    <action name="JN_SettingGesturePasswordCallback" class="com.ai.webplugin.AIWebViewBasePlugin"></action>
+    <action name="JN_SettingGesturePasswordCallback" class="com.wm.webviewkit.WMWebViewBasePlugin"></action>
     <!--修改手势密码-->
-    <action name="JN_ModifyGesturePassword" class="com.ai.webplugin.AIWebViewBasePlugin"></action>
+    <action name="JN_ModifyGesturePassword" class="com.wm.webviewkit.WMWebViewBasePlugin"></action>
     <!--修改手势密码回调-->
-    <action name="JN_ModifyGesturePasswordCallback" class="com.ai.webplugin.AIWebViewBasePlugin"></action>
+    <action name="JN_ModifyGesturePasswordCallback" class="com.wm.webviewkit.WMWebViewBasePlugin"></action>
     <!--是否有手势密码-->
-    <action name="JN_HaveGesturePassword" class="com.ai.webplugin.AIWebViewBasePlugin"></action>
+    <action name="JN_HaveGesturePassword" class="com.wm.webviewkit.WMWebViewBasePlugin"></action>
     <!--手势密码登录-->
-    <action name="JN_GesturePasswordLogin" class="com.ai.webplugin.AIWebViewBasePlugin"></action>
+    <action name="JN_GesturePasswordLogin" class="com.wm.webviewkit.WMWebViewBasePlugin"></action>
     <!--手势密码登录回调-->
-    <action name="JN_GesturePasswordLoginCallback" class="com.ai.webplugin.AIWebViewBasePlugin"></action>
+    <action name="JN_GesturePasswordLoginCallback" class="com.wm.webviewkit.WMWebViewBasePlugin"></action>
     <!--调用轻量级的WebviewActivity-->
-    <action name="JN_OpenLightWebViewActivity" class="com.ai.webplugin.AIWebViewBasePlugin"></action>
+    <action name="JN_OpenLightWebViewActivity" class="com.wm.webviewkit.WMWebViewBasePlugin"></action>
 </plugins>

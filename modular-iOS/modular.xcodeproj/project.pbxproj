@@ -7,8 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		AF5A6582233A4E6E00D3436A /* modular-core.js in Resources */ = {isa = PBXBuildFile; fileRef = AF5A6580233A4E6D00D3436A /* modular-core.js */; };
-		AF5A6583233A4E6E00D3436A /* modular-extend.js in Resources */ = {isa = PBXBuildFile; fileRef = AF5A6581233A4E6E00D3436A /* modular-extend.js */; };
+		AF79AF7A2402B04E00F8688F /* modular.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AF79AF792402B04E00F8688F /* modular.framework */; };
 		AF84E1F220B72830005387B8 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AF84E1EE20B7282F005387B8 /* Default@2x.png */; };
 		AF84E1F320B72830005387B8 /* Default-667@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AF84E1EF20B72830005387B8 /* Default-667@2x.png */; };
 		AF84E1F420B72830005387B8 /* Default-568@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AF84E1F020B72830005387B8 /* Default-568@2x.png */; };
@@ -19,8 +18,7 @@
 		AFBF2BE820439E2500AEBD25 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AFBF2BE720439E2500AEBD25 /* AppDelegate.m */; };
 		AFBF2BF020439E2500AEBD25 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AFBF2BEF20439E2500AEBD25 /* Assets.xcassets */; };
 		AFBF2BF620439E2500AEBD25 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AFBF2BF520439E2500AEBD25 /* main.m */; };
-		AFBF91A52248A5F7007F2ED8 /* AIWKWebViewExtendPlugin.m in Sources */ = {isa = PBXBuildFile; fileRef = AFBF91A42248A5F7007F2ED8 /* AIWKWebViewExtendPlugin.m */; };
-		AFCACC7322D091FC00110E48 /* AIBase.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AFCACC7222D091FC00110E48 /* AIBase.framework */; };
+		AFBF91A52248A5F7007F2ED8 /* WMWKWebViewExtendPlugin.m in Sources */ = {isa = PBXBuildFile; fileRef = AFBF91A42248A5F7007F2ED8 /* WMWKWebViewExtendPlugin.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -47,8 +45,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		AF5A6580233A4E6D00D3436A /* modular-core.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = "modular-core.js"; sourceTree = "<group>"; };
-		AF5A6581233A4E6E00D3436A /* modular-extend.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = "modular-extend.js"; sourceTree = "<group>"; };
+		AF79AF792402B04E00F8688F /* modular.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = modular.framework; path = modular/modular.framework; sourceTree = "<group>"; };
 		AF84E1EE20B7282F005387B8 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		AF84E1EF20B72830005387B8 /* Default-667@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-667@2x.png"; sourceTree = "<group>"; };
 		AF84E1F020B72830005387B8 /* Default-568@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568@2x.png"; sourceTree = "<group>"; };
@@ -62,9 +59,8 @@
 		AFBF2BE720439E2500AEBD25 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		AFBF2BEF20439E2500AEBD25 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AFBF2BF520439E2500AEBD25 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		AFBF91A32248A5F7007F2ED8 /* AIWKWebViewExtendPlugin.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AIWKWebViewExtendPlugin.h; sourceTree = "<group>"; };
-		AFBF91A42248A5F7007F2ED8 /* AIWKWebViewExtendPlugin.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AIWKWebViewExtendPlugin.m; sourceTree = "<group>"; };
-		AFCACC7222D091FC00110E48 /* AIBase.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AIBase.framework; path = modular/AIBase.framework; sourceTree = "<group>"; };
+		AFBF91A32248A5F7007F2ED8 /* WMWKWebViewExtendPlugin.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WMWKWebViewExtendPlugin.h; sourceTree = "<group>"; };
+		AFBF91A42248A5F7007F2ED8 /* WMWKWebViewExtendPlugin.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WMWKWebViewExtendPlugin.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,7 +68,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AFCACC7322D091FC00110E48 /* AIBase.framework in Frameworks */,
+				AF79AF7A2402B04E00F8688F /* modular.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -89,8 +85,6 @@
 				AF84E1EE20B7282F005387B8 /* Default@2x.png */,
 				AFB70F5E21C9DB67006753C3 /* modular-plugin-iOS.xml */,
 				AFA056BD209ADE7400297470 /* global.properties */,
-				AF5A6580233A4E6D00D3436A /* modular-core.js */,
-				AF5A6581233A4E6E00D3436A /* modular-extend.js */,
 			);
 			path = config;
 			sourceTree = "<group>";
@@ -118,8 +112,8 @@
 				AFA056BC209ADE7400297470 /* config */,
 				AFBF2BE620439E2500AEBD25 /* AppDelegate.h */,
 				AFBF2BE720439E2500AEBD25 /* AppDelegate.m */,
-				AFBF91A32248A5F7007F2ED8 /* AIWKWebViewExtendPlugin.h */,
-				AFBF91A42248A5F7007F2ED8 /* AIWKWebViewExtendPlugin.m */,
+				AFBF91A32248A5F7007F2ED8 /* WMWKWebViewExtendPlugin.h */,
+				AFBF91A42248A5F7007F2ED8 /* WMWKWebViewExtendPlugin.m */,
 				AFBF2BEF20439E2500AEBD25 /* Assets.xcassets */,
 				AF96F77A2047A1A10097D273 /* Info.plist */,
 				AFBF2BF520439E2500AEBD25 /* main.m */,
@@ -130,7 +124,7 @@
 		AFFCE7C0209A420800539D76 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				AFCACC7222D091FC00110E48 /* AIBase.framework */,
+				AF79AF792402B04E00F8688F /* modular.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -208,8 +202,6 @@
 				AFB70F6121C9DB67006753C3 /* Default-812@3x.png in Resources */,
 				AF84E1F320B72830005387B8 /* Default-667@2x.png in Resources */,
 				AFB70F6021C9DB67006753C3 /* modular-plugin-iOS.xml in Resources */,
-				AF5A6583233A4E6E00D3436A /* modular-extend.js in Resources */,
-				AF5A6582233A4E6E00D3436A /* modular-core.js in Resources */,
 				AF84E1F220B72830005387B8 /* Default@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -221,7 +213,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AFBF91A52248A5F7007F2ED8 /* AIWKWebViewExtendPlugin.m in Sources */,
+				AFBF91A52248A5F7007F2ED8 /* WMWKWebViewExtendPlugin.m in Sources */,
 				AFBF2BF620439E2500AEBD25 /* main.m in Sources */,
 				AFBF2BE820439E2500AEBD25 /* AppDelegate.m in Sources */,
 			);

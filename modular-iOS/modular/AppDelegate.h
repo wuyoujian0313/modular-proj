@@ -1,6 +1,6 @@
 //
 //  AppDelegate.h
-//  mesop
+//  modular
 //
 //  Created by Wu YouJian on 2019/7/5.
 //  Copyright © 2019 AI. All rights reserved.
