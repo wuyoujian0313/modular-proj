@@ -36,13 +36,13 @@ public class EnterActivity extends WMBaseActivity {
 //        TypedValue typedValue = new TypedValue();
 //        getTheme().resolveAttribute(R.attr.colorPrimary, typedValue, true);
 //        final  int color = typedValue.data;
-        intent.putExtra(WMWebViewActivity.backgroundColorKey,R.color.colorPrimary);
-        intent.putExtra(WMWebViewActivity.backgroundResIdKey,R.color.colorPrimary);
-        intent.putExtra(WMWebViewActivity.welcomeImageResId,R.mipmap.startpage);
+        intent.putExtra(WMWebViewActivity.kBackgroundColorKey,R.color.colorPrimary);
+        intent.putExtra(WMWebViewActivity.kBackgroundResIdKey,R.color.colorPrimary);
+        intent.putExtra(WMWebViewActivity.kWelcomeImageResId,R.mipmap.startpage);
 
         try {
             WMGlobalCfg globalCfg = WMGlobalCfg.getInstance();
-            intent.putExtra(WMWebViewActivity.webViewURLKey,globalCfg.attr("online.addr"));
+            intent.putExtra(WMWebViewActivity.kWebViewURLKey,globalCfg.attr("online.addr"));
             startActivity(intent);
             finish();
         } catch (Exception e) {
