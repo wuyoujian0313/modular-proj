@@ -36,9 +36,10 @@ public class EnterActivity extends WMBaseActivity {
 //        TypedValue typedValue = new TypedValue();
 //        getTheme().resolveAttribute(R.attr.colorPrimary, typedValue, true);
 //        final  int color = typedValue.data;
-        intent.putExtra(WMWebViewActivity.kBackgroundColorKey,R.color.colorPrimary);
+        intent.putExtra(WMWebViewActivity.kBackgroundColorKey, R.color.colorPrimary);
         intent.putExtra(WMWebViewActivity.kBackgroundResIdKey,R.color.colorPrimary);
         intent.putExtra(WMWebViewActivity.kWelcomeImageResId,R.mipmap.startpage);
+        intent.putExtra(WMWebViewActivity.kFullscreenType,WMWebViewActivity.WMFullScreenType.WMFullScreenTypeNoTitleBarInPortrait.value());
 
         try {
             WMGlobalCfg globalCfg = WMGlobalCfg.getInstance();
