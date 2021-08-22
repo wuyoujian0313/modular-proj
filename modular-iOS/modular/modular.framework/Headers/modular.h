@@ -36,6 +36,7 @@ FOUNDATION_EXPORT const unsigned char modularVersionString[];
     #import "WMWebViewResInterceptor.h"
     #import "WMWKWebViewController.h"
 	#import "WMWKWebViewBasePlugin.h"
+    #import "WMResURLUtils.h"
 
 	// CertificateCameraKits
 	#import "WMCertificateCameraViewController.h"

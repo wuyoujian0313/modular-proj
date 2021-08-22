@@ -11,6 +11,5 @@
 
 @interface NSDictionary(Utility)
 - (NSString *)toJSONString;
-- (NSDictionary *)toDictionary:(NSString *)JSONString;
 @end
 

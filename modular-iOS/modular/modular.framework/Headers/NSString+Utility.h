@@ -48,4 +48,5 @@
 - (NSString *_Nullable)hexToString;
 - (NSString *_Nullable)paramEncodeForJs;
 + (NSString *_Nullable)getRandomString:(NSInteger)length;
+- (NSDictionary *_Nullable)toDictionary;
 @end
