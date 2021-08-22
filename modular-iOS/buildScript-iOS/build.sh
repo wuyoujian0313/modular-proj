@@ -9,7 +9,7 @@
 ########################################################################
 
 # 应用targetName，一般应用的根目录的名称
-targetName="WMShell"
+targetName="modular"
 
 #当前证书的ID标识
 code_sign_identity="iPhone Distribution: Beijing WeiMeiTianCheng Technology Co., Ltd."
